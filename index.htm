@@ -1,77 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<!--jquery -->
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<div id="headvera">
+<head>
+  <!--jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <div id="headvera">
 
-</div>
+  </div>
 
-<script>
-$(function(){
-  $("#headvera").load("pezzi/testavera.html");
-});
-</script>
+  <script>
+    $(document).ready(function () {
+      $("#headvera").load("testavera.html");
+    });
+    $(function () {
+    });
+  </script>
 
-
- 
-
-
-
-<!-- Parte head diversa ogni pagina -->
-<title>Home</title>
-<meta name="description" content="Blog incentrato sulle nuove tecnologie e in particolare le loro applicazioni in ambito business. Big data dreaming tratta temi come blockchain, big data mining e intelligenza artificiale, mira a diventare il riferimento italiano, ma con contributi internazionale. Non è rivolto principalmente ad informatici, il target di riferimento sono manager e imprenditori che vogliono comprendere queste tecnologie per applicarle nella pratica ai propri business" />
-<meta name="keywords" content="intelligenza, artificale, big, data, mining, bitcoin, bit, blockchain, mineria">
-<meta name="author" content="Andrea Bertalero">
+  <!-- Parte head diversa ogni pagina -->
+  <title>Home</title>
+  <meta name="description"
+        content="Blog incentrato sulle nuove tecnologie e in particolare le loro applicazioni in ambito business. Big data dreaming tratta temi come blockchain, big data mining e intelligenza artificiale, mira a diventare il riferimento italiano, ma con contributi internazionale. Non ï¿½ rivolto principalmente ad informatici, il target di riferimento sono manager e imprenditori che vogliono comprendere queste tecnologie per applicarle nella pratica ai propri business"/>
+  <meta name="keywords" content="intelligenza, artificale, big, data, mining, bitcoin, bit, blockchain, mineria">
+  <meta name="author" content="Andrea Bertalero">
 </head>
 
-
-
 <!-- Parte sempre uguale top-->
-
-
-
 
 <body>
 <div class="wrap">
 
-<div id="testata">
+  <div id="testata">
+
+  </div>
+
+  <script>
+    $(function () {
+      $("#testata").load("pezzi/testa.html");
+    });
+  </script>
+
+
+  <div class="content">
+    <div class="testo1">
+      <a class="twitter-timeline" href="https://twitter.com/bigdatad">Tweets by TwitterDev</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div> <!-- chiude testo1 -->
+
+
+    <div class="testo2">
+    </div> <!-- chiude testo2 -->
+
+  </div> <!-- chiude content -->
+
+
+  <!-- Parte sempre uguale  fondo-->
+  <!--Navigation bar-->
+  <div id="footer">
+
+  </div>
+
+  <script>
+    $(function () {
+      $("#footer").load("pezzi/foot.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
 
 </div>
 
-<script>
-$(function(){
-  $("#testata").load("pezzi/testa.html");
-});
-</script>
 
-
-<div class="content">
-<div class="testo1">
-<a class="twitter-timeline" href="https://twitter.com/bigdatad">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div> <!-- chiude testo1 -->
-
-			
-<div class="testo2">						
-</div> <!-- chiude testo2 -->
-
-</div> <!-- chiude content -->	
-
-
-		
-<!-- Parte sempre uguale  fondo-->
-<!--Navigation bar-->
-<div id="footer">
-
-</div>
-
-<script>
-$(function(){
-  $("#footer").load("pezzi/foot.html");
-});
-</script>
-<!--end of Navigation bar-->
-	
-
-
-  

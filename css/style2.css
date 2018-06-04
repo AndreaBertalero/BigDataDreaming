@@ -1,0 +1,201 @@
+body {
+  background: linen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  max-height: 2000px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+a:link {
+  color: red;
+}
+
+.header {
+  height: 100px;
+}
+
+.logo {
+  float: left;
+  min-width: 5em;
+}
+
+.nome {
+  float: left;
+}
+
+.loghisocial {
+  float: right;
+}
+
+.logosocial {
+  max-height: 5em;
+  max-width: 5em;
+}
+
+.corpo {
+  width: 100%;
+}
+
+.galleria {
+  width: 100%;
+}
+
+.fotogalleria {
+  width: 33%;
+  height: 15em;
+}
+
+.motto {
+  text-align: center;
+  color: red;
+}
+
+.menu {
+  float: left;
+  color: red;
+}
+
+.menumob {
+  display: none;
+}
+
+.objmenu1 {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.blocco1 {
+  margin: auto;
+  max-width: 60em;
+}
+
+#chisiamo {
+  max-width: 60em;
+  margin: auto;
+  color: black;
+}
+
+#contatti {
+  font-weight: bold;
+}
+
+.albero1 {
+  float: left;
+  width: 50%;
+}
+
+.albero2 {
+  float: right;
+  width: 50%;
+}
+
+.testo1 {
+  max-height: 62em;
+  max-width: 60em;
+  overflow-y: scroll;
+  margin: auto;
+}
+
+.cookie {
+  max-width: 50em;
+  z-index: 60;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 32px;
+  }
+
+  .nome {
+    text-align: center;
+  }
+
+  .wrap {
+    max-width: 62em;
+  }
+
+  .header {
+    max-width: 62em;
+  }
+
+  .logo, .loghisocial, .nome {
+    width: 100%;
+    position: static;
+    margin: auto;
+    clear: both;
+    text-align: center;
+  }
+
+  .occhio {
+    min-width: 5em;
+  }
+
+  .galleria {
+    display: none;
+  }
+
+  .motto {
+    clear: both;
+  }
+
+  .menumob {
+    display: inline;
+  }
+
+  .objmenu1 {
+    display: block;
+    margin: 0 0 5em 0;
+  }
+
+  .barramenu {
+    display: none;
+  }
+
+  .albero {
+    max-width: 62em
+  }
+
+  .albero1, .albero2 {
+    width: 100%;
+    position: static;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contatti {
+    text-align: center;
+  }
+
+  .indirizzi {
+    display: none;
+  }
+
+}
+
+.centered {
+  text-align: center;
+}
+
+
+.table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+#wrapper {
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  padding: 5px;
+  margin:5px;
+}
+
