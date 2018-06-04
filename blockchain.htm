@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<!--jquery -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<div id="headvera">
+
+</div>
+
+<script>
+$(function(){
+  $("#headvera").load("/pezzi/testavera.html");
+});
+</script>
+
+
+ 
+
+
+
+<!-- Parte head diversa ogni pagina -->
+<title>Blockchain</title>
+<meta name="description" content="Spiegazione blockchain" />
+<meta name="keywords" content="blockchain,time,stamp, btc,bitcoin,hash,distribuito,ledger,decentralizzato">
+<meta name="author" content="Andrea Bertalero">
+</head>
+
+
+
+<!-- Parte sempre uguale top-->
+
+
+
+
+<body>
+<div class="wrap">
+
+<div id="testata">
+
+</div>
+
+<script>
+$(function(){
+  $("#testata").load("/pezzi/testa.html");
+});
+</script>
+
+
+<div class="content">
+<div class="testo1">
+<h1> Blockchain </h1>
+
+<p>La tecnologia blockchain è stata una rivoluzione nel mondo informatico. </p>
+
+<p>Molto sinteticamente la tecnologia blockchain ha permesso di superare il problema della replicabilità di un bene digitale e della mancanza di fiducia nelle transazioni tra soggetti sconosciuti e distanti. </p>
+
+<p>Sicuramente l'utilizzo più famoso e più naturale è la creazione e il passaggio tramite transazioni di valuta digitale, come <a href="bitcoin">bitcoin</a>, in quanto il denaro è l'unità del valore per eccellenza e i problemi risolti dalla tecnologia blockchain, replicabilità infinita dei beni digitali e mancanza di fiducia, trovano nelle transazioni finanziarie la loro applicazione insita. </p>
+
+<p>L'elemento chiave è la decentralizzazione, ogni partecipante alla blockchain conserva una copia di ogni transazione mai avvenuta.</p>
+
+<p>La decentralizzazione è un elemento chiave di sicurezza. La motivazione è semplicissima: se un file è conservato in un solo posto per corromperlo o distruggerlo basta attaccare, fisicamente o informaticamente, quel singolo posto, ad esempio un computer. Se il file è conservato in una moltitudine di posti bisogna attaccare ognuno di quei posti, che attaccare più punti contemporaneamente sia più difficile e richieda più risorse è abbastanza ovvio, oltre che argomentato da ogni trattato di strategia militare da migliaia di anni. Per questa ragione una blockchain è tanto più sicuro quanto più è estesa, una blockchain alla quale partecipano un milione di persone, ognuna con il proprio computer e sparse per il mondo, non è nemmeno paragonabile alla sicurezza di una blockchain di tre computer situati nello stesso ufficio. Il primo caso si può considerare praticamente invulnerabile, mentre la seconda blockchain non ha senso di esistere. Il livello di sicurezza aumenta con l'estensione anche per il modo in cui vengono validate le transazioni con il mining, essenzialmente basato sulla proof of stake o proof of work, che vedremo in seguito. </p>
+
+<p>Abbiamo detto che la tecnologia blockchain supera il problema di replicabilità di un bene digitale e abbiamo anche detto che un elemento chiave della sicura è la decentralizza con una copia conservata da ogni partecipante, questo come è possibile?</p>
+
+<p> La risposta è semplice: se ad esempio parliamo della blockchain di bitcoin i file conservati non sono dei bitcoin, ma un registro di ogni transazione in bitcoin mai avvenuta. </p>
+
+<p> Ad ogni elemento partecipante sono assegnate una chiave pubblica e una chiave privata. In realtà ad una chiave privata possono corrispondere più chiavi pubbliche, uno stesso elemento può creare più chiavi private o lo stesso "conto" può essere multifirma e "intestato a più persone", ma approfondiremo i casi particolari in seguito, ora per semplificare consideriamo il caso standard che ogni partecipante ha una sola chiave privata e una sola chiave pubblica. 
+Anzi per semplificare ancora al momento tralasciamo come si invia il denaro e vediamo solo come è "conservato" quando si riceve, quindi consideriamo che ogni partecipante ha solo una chiave pubblica.</p>
+
+<p> Le chiavi pubbliche possono essere considerati indirizzi IBAN e numeri di conto corrente fusi in unico elemento. Se qualcosa ti deve inviare denaro in euro con il sistema bancario tradizionale quello che devi comunicargli/le è il tuo nome e cognome e il tuo iban, alcune banche possono richiedere altri elementi per evitare errori, come il codice BIC, ma in realtà per una transazione bancaria in euro tra banche tradizionali basta che il mittente abbia un suo conto corrente e che conosca iban e nome e cognome del destinario, ovviamente il mittente deve avere una giacenza sufficiente sul conto.<br>
+Quando si effettuano transazioni basati su blockchain è tutto molto simile, il mittente deve avere un "conto" con giacenza sufficienza e le coordinate del destinatario. Le coordinate del destinario però non sono codice IBAN e nome e cognome, ma una chiave pubblica. Questa è la chiave pubblica di un indirizzo appartenente alla blockchain bitcoin di Big Data Dreaming: 3DJm1LCt4vnGcGqB7GRyZBNQ5poMNpH9FN. Chiunque abbia un conto in bitcoin e voglia inviarci dei bitcoin nella sua disponibilità può inviarceli con questo solo elemento "3DJm1LCt4vnGcGqB7GRyZBNQ5poMNpH9FN", basta questo per inviare, può anche non sapere chi sia a ricevere i bitcoin, la sola chiave pubblica è sufficiente. Il proprietario della chiave pubblica può scrivere la sua chiave pubblica ovunque e distribuire volantini che chiunque in possesso della chiave pubblica potrà inviare l'oggetto della blockchain. ad esempio i bitcoin, ma non potrà inviare niente DAL quel conto. Per inviare è necessaria la chiave privata, ed è impossibile calcolare la chiave privata da quella pubblico. </p>
+<p> La differenza principale differenza però non </p>
+</div> <!-- chiude testo1 -->
+
+			
+<div class="testo2">						
+</div> <!-- chiude testo2 -->
+
+</div> <!-- chiude content -->	
+
+
+		
+<!-- Parte sempre uguale  fondo-->
+<!--Navigation bar-->
+<div id="footer">
+
+</div>
+
+<script>
+$(function(){
+  $("#footer").load("/pezzi/foot.html");
+});
+</script>
+<!--end of Navigation bar-->
+	
+
+
+  
